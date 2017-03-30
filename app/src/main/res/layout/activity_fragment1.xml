@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context="com.example.lg.work5.Fragment1">
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/apple"
+            android:text="사과 Table(비어있음)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:textStyle="bold"
+            android:id="@+id/grape"
+            android:text="포도 Table(비어있음)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:textStyle="bold"
+            android:id="@+id/kiwi"
+            android:text="키위 Table(비어있음)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:textStyle="bold"
+            android:id="@+id/grapefruit"
+            android:text="자몽 Table(비어있음)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <GridLayout
+        android:layout_weight="1"
+        android:columnCount="2"
+        android:rowCount="6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_columnWeight="0.3"
+            android:text="테이블명"/>
+        <TextView
+            android:textColor="#727096"
+            android:layout_columnWeight="0.7"
+            android:id="@+id/t_name"/>
+        <TextView
+            android:layout_columnWeight="0.3"
+            android:text="입장시간"/>
+        <TextView
+            android:textColor="#727096"
+            android:layout_columnWeight="0.7"
+            android:id="@+id/time"/>
+        <TextView
+            android:layout_columnWeight="0.3"
+            android:text="스파게티"/>
+        <TextView
+            android:textColor="#727096"
+            android:layout_columnWeight="0.7"
+            android:id="@+id/spa"/>
+        <TextView
+            android:layout_columnWeight="0.3"
+            android:text="피자"/>
+        <TextView
+            android:textColor="#727096"
+            android:layout_columnWeight="0.7"
+            android:id="@+id/piz"/>
+        <TextView
+            android:layout_columnWeight="0.3"
+            android:text="멤버십카드"/>
+        <TextView
+            android:textColor="#727096"
+            android:layout_columnWeight="0.7"
+            android:id="@+id/member"/>
+        <TextView
+            android:layout_columnWeight="0.3"
+            android:text="가격"/>
+        <TextView
+            android:textColor="#727096"
+            android:layout_columnWeight="0.7"
+            android:id="@+id/price"/>
+    </GridLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/order"
+            android:text="새 주문"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:enabled="false"
+            android:layout_weight="1"
+            android:id="@+id/edit"
+            android:text="정보수정"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:enabled="false"
+            android:layout_weight="1"
+            android:id="@+id/reset"
+            android:text="초기화"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
