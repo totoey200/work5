@@ -276,6 +276,10 @@ public class Fragment1 extends Fragment {
         edit2.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+                if(edit1.getText().toString().equals(""))
+                    check[0]=false;
+                else
+                    check[0]=true;
                 if(edit2.getText().toString().equals("")){
                     check[1]=false;
                 }
@@ -296,6 +300,10 @@ public class Fragment1 extends Fragment {
 
             @Override
             public void afterTextChanged(Editable s) {
+                if(edit1.getText().toString().equals(""))
+                    check[0]=false;
+                else
+                    check[0]=true;
                 if(edit2.getText().toString().equals("")){
                     check[1]=false;
                 }

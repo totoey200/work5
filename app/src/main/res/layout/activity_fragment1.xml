@@ -47,70 +47,70 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <TextView
-            android:textSize="15dp"
+            android:textSize="20dp"
             android:layout_marginTop="10dp"
             android:layout_columnWeight="0.3"
             android:text="테이블명"/>
         <TextView
             android:layout_marginTop="10dp"
-            android:textSize="15dp"
+            android:textSize="20dp"
             android:textColor="#5151a9"
             android:layout_columnWeight="0.7"
             android:id="@+id/t_name"/>
         <TextView
             android:layout_marginTop="10dp"
-            android:textSize="15dp"
+            android:textSize="20dp"
             android:layout_columnWeight="0.3"
             android:text="입장시간"/>
         <TextView
             android:layout_marginTop="10dp"
-            android:textSize="15dp"
+            android:textSize="20dp"
             android:textColor="#5151a9"
             android:layout_columnWeight="0.7"
             android:id="@+id/time"/>
         <TextView
             android:layout_marginTop="10dp"
-            android:textSize="15dp"
+            android:textSize="20dp"
             android:layout_columnWeight="0.3"
             android:text="스파게티"/>
         <TextView
             android:layout_marginTop="10dp"
-            android:textSize="15dp"
+            android:textSize="20dp"
             android:textColor="#5151a9"
             android:layout_columnWeight="0.7"
             android:id="@+id/spa"/>
         <TextView
             android:layout_marginTop="10dp"
-            android:textSize="15dp"
+            android:textSize="20dp"
             android:layout_columnWeight="0.3"
             android:text="피자"/>
         <TextView
             android:layout_marginTop="10dp"
-            android:textSize="15dp"
+            android:textSize="20dp"
             android:textColor="#5151a9"
             android:layout_columnWeight="0.7"
             android:id="@+id/piz"/>
         <TextView
             android:layout_marginTop="10dp"
-            android:textSize="15dp"
+            android:textSize="20dp"
             android:layout_columnWeight="0.3"
             android:text="멤버십카드"/>
         <TextView
             android:layout_marginTop="10dp"
-            android:textSize="15dp"
+            android:textSize="20dp"
             android:textColor="#5151a9"
             android:layout_columnWeight="0.7"
             android:id="@+id/member"/>
         <TextView
             android:background="#ffeff2"
             android:layout_marginTop="10dp"
-            android:textSize="15dp"
+            android:textSize="20dp"
             android:layout_columnWeight="0.3"
             android:text="가격"/>
         <TextView
             android:background="#ffeff2"
             android:layout_marginTop="10dp"
-            android:textSize="15dp"
+            android:textSize="20dp"
             android:textColor="#a2635b"
             android:layout_columnWeight="0.7"
             android:id="@+id/price"/>
