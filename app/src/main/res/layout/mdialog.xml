@@ -1,44 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="15dp"
     android:layout_height="match_parent">
     <GridLayout
         android:layout_weight="1"
         android:columnCount="2"
-        android:rowCount="6"
+        android:rowCount="3"
+        android:layout_marginBottom="15dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <TextView
+            android:textSize="15dp"
             android:layout_columnWeight="0.3"
             android:text="스파게티"/>
         <EditText
+            android:inputType="number"
             android:layout_columnWeight="0.7"
             android:id="@+id/spa_input"/>
         <TextView
+            android:textSize="15dp"
             android:layout_columnWeight="0.3"
             android:text="피자"/>
         <EditText
+            android:inputType="number"
             android:layout_columnWeight="0.7"
-            android:id="@+id/piz"/>
+            android:id="@+id/piz_input"/>
         <TextView
+            android:textSize="20dp"
+            android:layout_columnSpan="2"
             android:text="멤버십카드"/>
-        <RadioGroup>
-            <RadioButton
-                android:text="없음"
-                android:id="@+id/no_mem"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <RadioButton
-                android:id="@+id/nor_mem"
-                android:text="기본"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <RadioButton
-                android:id="@+id/vip_mem"
-                android:text="VIP"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-        </RadioGroup>
+
     </GridLayout>
+    <RadioGroup
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+        <RadioButton
+            android:textSize="15dp"
+            android:checked="true"
+            android:text="없음"
+            android:id="@+id/no_mem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:textSize="15dp"
+            android:id="@+id/nor_mem"
+            android:text="기본"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:textSize="15dp"
+            android:id="@+id/vip_mem"
+            android:text="VIP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
 </LinearLayout>
